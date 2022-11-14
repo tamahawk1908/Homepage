@@ -1,0 +1,20 @@
+.container {
+    color: #222222;
+    background-color: #ffc812;
+    font-family: 'Lato', sans-serif;
+}
+.container__header {
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    background-color: #444444;
+}
+
+.container__paragraph {
+    padding: 2px 20px 10px;
+}
+
+.age {
+    font-size: 120%;
+    color: rgb(254 0 0);
+}

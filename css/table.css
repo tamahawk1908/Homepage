@@ -1,0 +1,26 @@
+.table {
+    border-collapse: collapse;
+    outline: solid #444444;
+    overflow-x: auto;
+    margin: 25px auto;
+    width: 50%;
+}
+
+.table__header {
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    background-color: #444444;
+}
+
+.table__cell {
+    padding: 10px;
+    background-color: #ffc812;
+    border: 2px solid #444444;
+}
+
+.table__cell--header {
+    color: white;
+    background-color: #444444;
+    border: 2px solid #ffc812;
+}

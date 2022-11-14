@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    line-height: 1.5;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+}

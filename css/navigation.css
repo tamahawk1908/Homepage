@@ -1,0 +1,37 @@
+.navigation {
+    color: white;
+    background-origin: padding-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation__header {
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    background-color: #444444;
+}
+
+.navigation__list {
+    padding: 0px;
+    list-style: none;
+    color: #222222;
+    background-color: #ffc812;
+}
+
+.navigation__link {
+    line-height: 2.0;
+    color: #222222;
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: solid #222222;
+}
+
+.navigation__link:hover {
+    color: white;
+}
+
+.navigation__link:active {
+    outline: solid #444444;
+}
