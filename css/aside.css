@@ -1,0 +1,15 @@
+.aside{
+    text-align: center;
+    overflow-x: auto;
+}
+.aside__picture {
+    max-width: 483px;
+    margin: 5px;
+}
+
+.aside__signature {
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    background-color: #444444;
+}
