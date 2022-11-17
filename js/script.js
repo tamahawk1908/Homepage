@@ -22,6 +22,6 @@ let themeName = document.querySelector(".js-themeName")
 buttonThree.addEventListener("click", () => {
     body.classList.toggle("dark");
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    themeName.innerText = body.classList.contains("dark") ? "light" : "dark";
     
 });
