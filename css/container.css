@@ -18,3 +18,8 @@
     font-size: 120%;
     color: rgb(254 0 0);
 }
+
+.container__bold {
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,27 +1,47 @@
-console.log("Hey!, Hi!, Hello!")
+{
+    const welcome = () => {
+        console.log("Hey!, Hi!, Hello!");
+    };
 
-let buttonOne = document.querySelector(".js-buttonOne");
-let header = document.querySelector(".js-header");
-buttonOne.addEventListener("click", () => {
+    welcome();
 
-    header.remove()
-    buttonOne.remove()
+    {
+        const toggleBackground = () => {
+            const buttonThree = document.querySelector(".js-buttonThree");
+            const body = document.querySelector(".js-body");
+            const themeName = document.querySelector(".js-themeName");
+            buttonThree.addEventListener("click", toggleBackground);
+            body.classList.toggle("dark");
+            themeName.innerText = body.classList.contains("dark") ? "light" : "dark";
+        };
 
-});
-let buttonTwo= document.querySelector(".js-buttonTwo");
-let picture = document.querySelector(".js-picture");
-buttonTwo.addEventListener("click", () => {
+        toggleBackground();
+    };
+    {
+        const headerRemove = () => {
+            const buttonOne = document.querySelector(".js-buttonOne");
+            const header = document.querySelector(".js-header");
+            buttonOne.addEventListener("click", () => {
 
-    picture.remove()
-    buttonTwo.remove()
-});
+                header.remove()
+                buttonOne.remove()
 
-let buttonThree = document.querySelector(".js-buttonThree");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName")
-buttonThree.addEventListener("click", () => {
-    body.classList.toggle("dark");
+            });
+        };
 
-    themeName.innerText = body.classList.contains("dark") ? "light" : "dark";
-    
-});
+        headerRemove();
+    };
+    {
+        const portraitRemove = () => {
+            const buttonTwo = document.querySelector(".js-buttonTwo");
+            const picture = document.querySelector(".js-picture");
+            buttonTwo.addEventListener("click", () => {
+
+                picture.remove()
+                buttonTwo.remove()
+            });
+        };
+
+        portraitRemove();
+    };
+};

@@ -12,3 +12,12 @@ html {
     text-align: center;
     margin: auto;
 }
+
+.dark {
+    color: white;
+    background-color: dimgray;
+}
+
+.light {
+    background-color: white;
+}

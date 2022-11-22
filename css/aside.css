@@ -1,7 +1,8 @@
-.aside{
+.aside {
     text-align: center;
     overflow-x: auto;
 }
+
 .aside__picture {
     max-width: 483px;
     margin: 5px;
@@ -12,4 +13,30 @@
     font-family: 'Mukta', sans-serif;
     color: white;
     background-color: #444444;
+}
+
+.flex__header {
+    width: auto;
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    background-color: #444444;
+    margin: 0px 0px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffc812;
+}
+
+.flex__item {
+    padding: 5px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.flex__item:hover {
+    color: white;
 }
