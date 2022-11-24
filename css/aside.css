@@ -4,8 +4,14 @@
 }
 
 .aside__picture {
-    max-width: 483px;
+    width: 483px;
     margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .aside__picture {
+        width: 100%;
+    }
 }
 
 .aside__signature {
@@ -29,6 +35,14 @@
     align-items: center;
     justify-content: space-around;
     background-color: #ffc812;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
 }
 
 .flex__item {
